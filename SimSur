@@ -1,0 +1,2 @@
+#!/bin/bash
+pacmd load-module module-virtual-surround-sink sink_name=vsurround sink_properties=device.description=VirtualSurround hrir=$HOME/.local/share/hrir.wav master=alsa_output.pci-0000_0b_00.4.analog-stereo
